@@ -115494,6 +115494,322 @@ $o['v1']['logs/userid'] = array (
     ),
 );
 
+//==== v1 testplugin/testservice/hello/{s0} ====
+
+$o['v1']['testplugin/testservice/hello/{s0}'] = array (
+    'GET' => 
+    array (
+        'url' => 'testplugin/testservice/hello/{var}',
+        'className' => '\\Services\\Api\\TestPlugin\\TestService',
+        'path' => 'testplugin',
+        'methodName' => 'hello',
+        'arguments' => 
+        array (
+            'var' => 0,
+        ),
+        'defaults' => 
+        array (
+            0 => NULL,
+        ),
+        'metadata' => 
+        array (
+            'description' => '',
+            'longDescription' => '',
+            'url' => 'GET /testservice/hello/:var',
+            'protected' => '',
+            'scope' => 
+            array (
+                '*' => 'Services\\Api\\TestPlugin\\',
+                'RestException' => 'Luracast\\Restler\\RestException',
+                'Api' => 'ProcessMaker\\Services\\Api',
+                'Util' => 'ProcessMaker\\Util',
+            ),
+            'resourcePath' => 'testplugin/',
+            'classDescription' => '',
+            'param' => 
+            array (
+                0 => 
+                array (
+                    'name' => 'var',
+                    'label' => 'Var',
+                    'default' => NULL,
+                    'required' => true,
+                    'children' => 
+                    array (
+                    ),
+                    'properties' => 
+                    array (
+                        'from' => 'path',
+                    ),
+                    'type' => 'string',
+                ),
+            ),
+            'return' => 
+            array (
+                'type' => 'array',
+            ),
+        ),
+        'accessLevel' => 2,
+    ),
+);
+
+//==== v1 testplugin/testservice/getcustomerdetails/{s} ====
+
+$o['v1']['testplugin/testservice/getcustomerdetails/{s}'] = array (
+    'GET' => 
+    array (
+        'url' => 'testplugin/testservice/getcustomerdetails/{s}',
+        'className' => '\\Services\\Api\\TestPlugin\\TestService',
+        'path' => 'testplugin',
+        'methodName' => 'getCustomerDetails',
+        'arguments' => 
+        array (
+            'customerId' => 0,
+        ),
+        'defaults' => 
+        array (
+            0 => NULL,
+        ),
+        'metadata' => 
+        array (
+            'description' => '',
+            'longDescription' => '',
+            'url' => 'GET /testservice/getcustomerdetails/:customer_id',
+            'protected' => '',
+            'scope' => 
+            array (
+                '*' => 'Services\\Api\\TestPlugin\\',
+                'RestException' => 'Luracast\\Restler\\RestException',
+                'Api' => 'ProcessMaker\\Services\\Api',
+                'Util' => 'ProcessMaker\\Util',
+            ),
+            'resourcePath' => 'testplugin/',
+            'classDescription' => '',
+            'param' => 
+            array (
+                0 => 
+                array (
+                    'name' => 'customerId',
+                    'label' => 'Customer Id',
+                    'default' => NULL,
+                    'required' => true,
+                    'children' => 
+                    array (
+                    ),
+                    'properties' => 
+                    array (
+                        'from' => 'query',
+                    ),
+                    'type' => 'string',
+                ),
+            ),
+            'return' => 
+            array (
+                'type' => 'array',
+            ),
+        ),
+        'accessLevel' => 2,
+    ),
+);
+
+//==== v1 testplugin/setworkspace ====
+
+$o['v1']['testplugin/setworkspace'] = array (
+    'GET' => 
+    array (
+        'url' => 'testplugin/setworkspace',
+        'className' => '\\Services\\Api\\TestPlugin\\TestService',
+        'path' => 'testplugin',
+        'methodName' => 'setWorkspace',
+        'arguments' => 
+        array (
+            'workspace' => 0,
+        ),
+        'defaults' => 
+        array (
+            0 => NULL,
+        ),
+        'metadata' => 
+        array (
+            'description' => '',
+            'longDescription' => '',
+            'protected' => '',
+            'scope' => 
+            array (
+                '*' => 'Services\\Api\\TestPlugin\\',
+                'RestException' => 'Luracast\\Restler\\RestException',
+                'Api' => 'ProcessMaker\\Services\\Api',
+                'Util' => 'ProcessMaker\\Util',
+            ),
+            'resourcePath' => 'testplugin/',
+            'classDescription' => '',
+            'param' => 
+            array (
+                0 => 
+                array (
+                    'name' => 'workspace',
+                    'label' => 'Workspace',
+                    'default' => NULL,
+                    'required' => true,
+                    'children' => 
+                    array (
+                    ),
+                    'properties' => 
+                    array (
+                        'from' => 'query',
+                    ),
+                    'type' => 'string',
+                ),
+            ),
+            'return' => 
+            array (
+                'type' => 'array',
+            ),
+        ),
+        'accessLevel' => 2,
+    ),
+);
+
+//==== v1 testplugin/workspace ====
+
+$o['v1']['testplugin/workspace'] = array (
+    'GET' => 
+    array (
+        'url' => 'testplugin/workspace',
+        'className' => '\\Services\\Api\\TestPlugin\\TestService',
+        'path' => 'testplugin',
+        'methodName' => 'getWorkspace',
+        'arguments' => 
+        array (
+        ),
+        'defaults' => 
+        array (
+        ),
+        'metadata' => 
+        array (
+            'description' => '',
+            'longDescription' => '',
+            'protected' => '',
+            'scope' => 
+            array (
+                '*' => 'Services\\Api\\TestPlugin\\',
+                'RestException' => 'Luracast\\Restler\\RestException',
+                'Api' => 'ProcessMaker\\Services\\Api',
+                'Util' => 'ProcessMaker\\Util',
+            ),
+            'resourcePath' => 'testplugin/',
+            'classDescription' => '',
+            'param' => 
+            array (
+            ),
+            'return' => 
+            array (
+                'type' => 'array',
+            ),
+        ),
+        'accessLevel' => 2,
+    ),
+);
+
+//==== v1 testplugin/setuserid ====
+
+$o['v1']['testplugin/setuserid'] = array (
+    'GET' => 
+    array (
+        'url' => 'testplugin/setuserid',
+        'className' => '\\Services\\Api\\TestPlugin\\TestService',
+        'path' => 'testplugin',
+        'methodName' => 'setUserId',
+        'arguments' => 
+        array (
+            'userId' => 0,
+        ),
+        'defaults' => 
+        array (
+            0 => NULL,
+        ),
+        'metadata' => 
+        array (
+            'description' => '',
+            'longDescription' => '',
+            'protected' => '',
+            'scope' => 
+            array (
+                '*' => 'Services\\Api\\TestPlugin\\',
+                'RestException' => 'Luracast\\Restler\\RestException',
+                'Api' => 'ProcessMaker\\Services\\Api',
+                'Util' => 'ProcessMaker\\Util',
+            ),
+            'resourcePath' => 'testplugin/',
+            'classDescription' => '',
+            'param' => 
+            array (
+                0 => 
+                array (
+                    'name' => 'userId',
+                    'label' => 'User Id',
+                    'default' => NULL,
+                    'required' => true,
+                    'children' => 
+                    array (
+                    ),
+                    'properties' => 
+                    array (
+                        'from' => 'query',
+                    ),
+                    'type' => 'string',
+                ),
+            ),
+            'return' => 
+            array (
+                'type' => 'array',
+            ),
+        ),
+        'accessLevel' => 2,
+    ),
+);
+
+//==== v1 testplugin/userid ====
+
+$o['v1']['testplugin/userid'] = array (
+    'GET' => 
+    array (
+        'url' => 'testplugin/userid',
+        'className' => '\\Services\\Api\\TestPlugin\\TestService',
+        'path' => 'testplugin',
+        'methodName' => 'getUserId',
+        'arguments' => 
+        array (
+        ),
+        'defaults' => 
+        array (
+        ),
+        'metadata' => 
+        array (
+            'description' => '',
+            'longDescription' => '',
+            'protected' => '',
+            'scope' => 
+            array (
+                '*' => 'Services\\Api\\TestPlugin\\',
+                'RestException' => 'Luracast\\Restler\\RestException',
+                'Api' => 'ProcessMaker\\Services\\Api',
+                'Util' => 'ProcessMaker\\Util',
+            ),
+            'resourcePath' => 'testplugin/',
+            'classDescription' => '',
+            'param' => 
+            array (
+            ),
+            'return' => 
+            array (
+                'type' => 'array',
+            ),
+        ),
+        'accessLevel' => 2,
+    ),
+);
+
 //==== v1 oauth2/{s0}/expire ====
 
 $o['v1']['oauth2/{s0}/expire'] = array (
@@ -116773,6 +117089,12 @@ $o['apiVersionMap']['\ProcessMaker\Services\Api\Google\Authentication'] = array 
 
 $o['apiVersionMap']['\ProcessMaker\Services\Api\Group\User'] = array (
     1 => '\\ProcessMaker\\Services\\Api\\Group\\User',
+);
+
+//==== apiVersionMap \Services\Api\TestPlugin\TestService ====
+
+$o['apiVersionMap']['\Services\Api\TestPlugin\TestService'] = array (
+    1 => '\\Services\\Api\\TestPlugin\\TestService',
 );
 
 //==== apiVersionMap \ProcessMaker\Services\OAuth2\Server ====

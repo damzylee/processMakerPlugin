@@ -1,0 +1,9 @@
+[2019-12-02 17:32:56] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '}' in /opt/processmaker/workflow/engine/classes/class.pmScript.php(318) : eval()'d code:3
+Stack trace:
+#0 /opt/processmaker/workflow/engine/classes/class.pmScript.php(473): PMScript->executeAndCatchErrors('try {\n$this->aF...', '@@greetings = d...')
+#1 /opt/processmaker/workflow/engine/classes/Cases.php(3425): PMScript->execute()
+#2 /opt/processmaker/workflow/engine/classes/Cases.php(3348): Cases->executeTriggerFromList(Array, Array, 'DYNAFORM', '1250631075de521...', 'AFTER')
+#3 /opt/processmaker/workflow/engine/methods/cases/cases_SaveData.php(151): Cases->executeTriggers('1753087545d6985...', 'DYNAFORM', '1250631075de521...', 'AFTER', Array)
+#4 /opt/processmaker/workflow/public_html/sysGeneric.php(1062): require_once('/opt/processmak...')
+#5 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#6 {main}  

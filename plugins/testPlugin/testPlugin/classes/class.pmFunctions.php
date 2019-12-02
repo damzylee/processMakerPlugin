@@ -27,17 +27,24 @@ function testPlugin_getMyCurrentTime()
 
 function testPlugin_getCustomerDetails($customerId)
 {
-	//geet the customer details from DB
-	$sqlStatement = "SELECT * FROM PMT_CUSTOMERS WHERE CUSTOMER_ID = '$customerId'";
-	$result = executeQuery($sqlStatement);
-
-	if (isset($result) && count($result) > 0)
+	try 
 	{
-		return $result[1];
+		//get the customer details from DB
+		$sqlStatement = "SELECT * FROM PMT_CUSTOMERS WHERE CUSTOMER_ID = '$customerId'";
+		$result = executeQuery($sqlStatement);
+
+		if (isset($result) && count($result) > 0)
+		{
+			return $result[1];
+		}
+		else
+		{
+			return array("error" => "No record found for customer id provided.");
+
+		}
 	}
-	else
+	catch(Exception $e)
 	{
-		return array("error" => "No record found for customer id provided.");
-
+		return array("error" => $e->getMessage());
 	}
 }
