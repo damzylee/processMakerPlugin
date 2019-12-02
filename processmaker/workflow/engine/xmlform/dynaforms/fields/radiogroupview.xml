@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="radiogroupview" type="xmlform" width="100%">
+  <A type="hidden"/>
+  <TYPE type="hidden"/>
+  <XMLNODE_NAME type="text" validate="Field">
+    <en><![CDATA[Field name]]></en>
+    <el><![CDATA[Όνομα Πεδίου]]></el>
+  </XMLNODE_NAME>
+  <LABEL type="text" maxlength="255" size="50">
+    <en><![CDATA[Label]]></en>
+    <el><![CDATA[Εττικέτα]]></el>
+  </LABEL>
+  <REQUIRED type="checkbox" falseValue="0" value="1" defaultvalue="0">
+    <en><![CDATA[Required]]></en>
+    <el><![CDATA[Απαιτείται]]></el>
+  </REQUIRED>
+  <DEFAULTVALUE type="text" maxlength="50" size="30" defaultvalue="">
+    <en><![CDATA[Default Value]]></en>
+    <el><![CDATA[Προκαθορισμένη τιμή]]></el>
+  </DEFAULTVALUE>
+  <SUBTITLE type="title" enableHTML="1">
+    <en><![CDATA[Appearance]]></en>
+    <el><![CDATA[Εμφάνιση]]></el>
+  </SUBTITLE>
+  <ENABLEHTML type="checkbox" falseValue="0" value="1" defaultvalue="0">
+    <en><![CDATA[EnableHtml]]></en>
+    <el><![CDATA[ΕνεργοποίησηHtml]]></el>
+  </ENABLEHTML>
+  <ACCEPT type="button" onclick="fieldsSave( this.form );">
+    <en><![CDATA[Save]]></en>
+    <el><![CDATA[Αποθήκευση]]></el>
+  </ACCEPT>
+  <js type="javascript"><![CDATA[
+getField("XMLNODE_NAME").focus();
+getField("XMLNODE_NAME").select();
+]]></js>
+</dynaForm>

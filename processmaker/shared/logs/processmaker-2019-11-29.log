@@ -1,0 +1,105 @@
+[2019-11-29 16:32:24] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:32:24] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:34:24] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:34:24] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:36:24] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:36:24] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:38:25] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:38:25] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:47:42] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:48:05] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:48:09] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:48:38] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:48:45] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:50:02] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  
+[2019-11-29 16:50:18] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Type error: Too few arguments to function PMPlugin::enableRestService(), 0 passed in /opt/plugins/testPlugin/testPlugin.php on line 44 and exactly 1 expected in /opt/processmaker/workflow/engine/classes/class.plugin.php:326
+Stack trace:
+#0 /opt/plugins/testPlugin/testPlugin.php(44): PMPlugin->enableRestService()
+#1 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/PluginRegistry.php(178): testPluginPlugin->setup()
+#2 /opt/processmaker/workflow/public_html/sysGeneric.php(750): ProcessMaker\Plugins\PluginRegistry->setupPlugins()
+#3 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#4 {main}  

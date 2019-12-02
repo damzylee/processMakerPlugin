@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm target="xx" width="450px">
+  <OUT_DOC_UID type="hidden"/>
+  <FILENAME type="phpVariable"/>
+  <FILELINK type="phpVariable"/>
+  <TITLE1 type="title">
+    <en><![CDATA[Download]]></en>
+    <el><![CDATA[κατέβασμα]]></el>
+  </TITLE1>
+  <OUT_DOC_LINK type="link" value="@#FILENAME" link="@#FILELINK" target="_blank">
+    <en><![CDATA[Click in the link to download current file]]></en>
+    <el><![CDATA[κλικ στο link για να κατεβάσετε το τρέχων αρχείο]]></el>
+  </OUT_DOC_LINK>
+  <TITLE2 type="title">
+    <en><![CDATA[Upload]]></en>
+    <el><![CDATA[Ανάρτηση]]></el>
+  </TITLE2>
+  <OUT_DOC_FILE type="file">
+    <en><![CDATA[Upload a modified file]]></en>
+    <el><![CDATA[Ανάρτηση τροποποιημένου αρχείου]]></el>
+  </OUT_DOC_FILE>
+  <BTN type="submit" onclick="submitIframe( this ); ">
+    <en><![CDATA[upload]]></en>
+    <el><![CDATA[Ανάρτηση]]></el>
+  </BTN>
+  <javasc type="javascript"><![CDATA[
+  function submitIframe ( th ) {
+    th.form.target = 'uploadFormIframe';
+    th.submit();    
+  }
+]]></javasc>
+</dynaForm>

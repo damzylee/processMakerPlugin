@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="xmlform" menu="" searchBy="" width="570">
+  <SCH_UID type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en><![CDATA[Scheduled Task ID]]></en>
+    <el><![CDATA[ID Χρονοπρογραμματισμένης Εργασίας]]></el>
+  </SCH_UID>
+  <TAS_UID type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en><![CDATA[Task ID]]></en>
+    <el><![CDATA[ID Εργασίας]]></el>
+  </TAS_UID>
+  <PRO_UID type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en><![CDATA[Process Id]]></en>
+    <el><![CDATA[Id Διαδικασίας]]></el>
+  </PRO_UID>
+  <USR_NAME type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en><![CDATA[User]]></en>
+    <el><![CDATA[Χρήστης]]></el>
+  </USR_NAME>
+  <EXEC_DATE type="text" titlealign="left" align="left" colWidth="100" mode="view">
+    <en><![CDATA[Execution Date]]></en>
+    <el><![CDATA[Ημερ. Εκτέλεσης]]></el>
+  </EXEC_DATE>
+  <EXEC_HOUR type="text" titlealign="left" align="left" colWidth="100" mode="view">
+    <en><![CDATA[Execution Hour]]></en>
+    <el><![CDATA[Ώρα Εκτέλεσης]]></el>
+  </EXEC_HOUR>
+  <RESULT type="text" titlealign="left" align="left" colWidth="90" mode="view">
+    <en><![CDATA[Execution Status]]></en>
+    <el><![CDATA[Κατάσταση Εκτέλεσης]]></el>
+  </RESULT>
+  <WS_CREATE_CASE_STATUS type="text" titlealign="left" align="left" colWidth="140" mode="view">
+    <en><![CDATA[Created Case Status]]></en>
+    <el><![CDATA[Κατάσταση Δημιουργημένης Υπόθεσης]]></el>
+  </WS_CREATE_CASE_STATUS>
+  <WS_ROUTE_CASE_STATUS type="text" titlealign="left" align="left" colWidth="140" mode="view">
+    <en><![CDATA[Routed Case Status]]></en>
+    <el><![CDATA[Κατάσταση Δρομολογημένης Υπόθεσης]]></el>
+  </WS_ROUTE_CASE_STATUS>
+</dynaForm>

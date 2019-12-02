@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="cases_TransferHistory" width="100%">
+  <TAS_TITLE type="text" colWidth="140">
+    <en><![CDATA[Task]]></en>
+    <el><![CDATA[Εργασία]]></el>
+  </TAS_TITLE>
+  <USR_LASTNAME type="private" showInTable="0">
+    <en>Delegated User</en>
+  </USR_LASTNAME>
+  <USR_FIRSTNAME type="private" showInTable="0">
+    <en>Delegated User</en>
+  </USR_FIRSTNAME>
+  <USR_NAME type="text">
+    <en><![CDATA[Delegated User]]></en>
+    <el><![CDATA[Ανατιθέμενος Χρήστης]]></el>
+  </USR_NAME>
+  <DEL_DELEGATE_DATE type="date" colWidth="122" colAlign="center" titleAlign="center">
+    <en><![CDATA[Task Transfer Date]]></en>
+    <el><![CDATA[Ημερ. μεταφοράς της Εργασίας]]></el>
+  </DEL_DELEGATE_DATE>
+  <DEL_INIT_DATE type="date" colWidth="100" colAlign="center" titleAlign="center">
+    <en><![CDATA[Start Date]]></en>
+    <el><![CDATA[Ημερ. Έναρξης]]></el>
+  </DEL_INIT_DATE>
+  <DEL_FINISH_DATE type="date" colWidth="100" colAlign="center" titleAlign="center">
+    <en><![CDATA[End Date]]></en>
+    <el><![CDATA[Ημερ. Τέλους]]></el>
+  </DEL_FINISH_DATE>
+  <APP_TYPE type="dropdown" colWidth="100" colAlign="center" titleAlign="center">
+    <en><![CDATA[Action]]><option name="PAUSE"><![CDATA[Paused]]></option><option name="CANCEL"><![CDATA[Canceled]]></option><option name=""><![CDATA[Routed]]></option></en>
+    <el><![CDATA[Δρομολογημένο]]><option name="PAUSE"><![CDATA[Paused]]></option><option name="CANCEL"><![CDATA[Canceled]]></option><option name=""><![CDATA[Routed]]></option></el>
+  </APP_TYPE>
+</dynaForm>

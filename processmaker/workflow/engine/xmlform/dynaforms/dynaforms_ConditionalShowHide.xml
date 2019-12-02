@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="xmlform" name="conditionalShowHide" width="700" enabletemplate="1" mode="edit">
+  <FCD_UID type="hidden" defaultValue="0"/>
+  <FCD_FIELDS type="hidden" defaultValue="0"/>
+  <FCD_EVENT_OWNERS type="hidden" defaultValue="0"/>
+  <FCD_EVENTS type="hidden" defaultValue="0"/>
+  <tit1 type="title" enablehtml="0">
+    <en><![CDATA[Conditions Editor]]></en>
+    <el><![CDATA[Επεξεργαστής Συνθηκών]]></el>
+  </tit1>
+  <FCD_FUNCTION type="dropdown" required="0" readonly="0" savelabel="0" mode="edit" options="Array">
+    <en><![CDATA[Function]]><option name="show"><![CDATA[Show]]></option><option name="showOnly"><![CDATA[Show only]]></option><option name="showAll"><![CDATA[Show all]]></option><option name="hide"><![CDATA[Hide]]></option><option name="hideOnly"><![CDATA[Hide only]]></option><option name="hideAll"><![CDATA[Hide all]]></option></en>
+    <el><![CDATA[Απόκρυψη όλων]]><option name="show"><![CDATA[Show]]></option><option name="showOnly"><![CDATA[Show only]]></option><option name="showAll"><![CDATA[Show all]]></option><option name="hide"><![CDATA[Hide]]></option><option name="hideOnly"><![CDATA[Hide only]]></option><option name="hideAll"><![CDATA[Hide all]]></option></el>
+  </FCD_FUNCTION>
+  <fields type="listbox" required="0" size="6" width="250">
+    <en><![CDATA[Applying the function fields]]></en>
+    <el><![CDATA[Εφαρμογή των πεδίων λειτουργίας]]></el>
+  </fields>
+  <fields_selected type="listbox" required="0" size="6" width="250">
+    <en><![CDATA[Selected fields]]></en>
+    <el><![CDATA[Επιλεγμένα πεδία]]></el>
+  </fields_selected>
+  <FCD_CONDITION style="width:408px" type="textarea" required="0" rows="6" cols="60" onchange="changex()" defaultValue="">
+    <en><![CDATA[Condition]]></en>
+    <el><![CDATA[Συνθήκη]]></el>
+  </FCD_CONDITION>
+  <op1 type="button" style="width:30px" onclick="oConditional.setCharacter('/');">
+    <en><![CDATA[/]]></en>
+    <el><![CDATA[/]]></el>
+  </op1>
+  <op2 type="button" style="width:30px" onclick="oConditional.setCharacter('(');">
+    <en><![CDATA[(]]></en>
+    <el><![CDATA[(]]></el>
+  </op2>
+  <op3 type="button" style="width:30px" onclick="oConditional.setCharacter(')');">
+    <en><![CDATA[)]]></en>
+    <el><![CDATA[)]]></el>
+  </op3>
+  <op4 type="button" style="width:40px" onclick="oConditional.setCharacter('&amp;&amp;');">
+    <en><![CDATA[AND]]></en>
+    <el><![CDATA[AND]]></el>
+  </op4>
+  <op5 type="button" style="width:30px" onclick="oConditional.setCharacter('*');">
+    <en><![CDATA[*]]></en>
+    <el><![CDATA[*]]></el>
+  </op5>
+  <op6 type="button" style="width:30px" onclick="oConditional.setCharacter('&lt;');">
+    <en><![CDATA[<]]></en>
+    <el><![CDATA[<]]></el>
+  </op6>
+  <op7 type="button" style="width:30px" onclick="oConditional.setCharacter('&gt;');">
+    <en><![CDATA[>]]></en>
+    <el><![CDATA[>]]></el>
+  </op7>
+  <op8 type="button" style="width:40px" onclick="oConditional.setCharacter('||');">
+    <en><![CDATA[OR]]></en>
+    <el><![CDATA[OR]]></el>
+  </op8>
+  <op9 type="button" style="width:30px" onclick="oConditional.setCharacter('-');">
+    <en><![CDATA[-]]></en>
+    <el><![CDATA[-]]></el>
+  </op9>
+  <op10 type="button" style="width:30px" onclick="oConditional.setCharacter('&lt;=');">
+    <en><![CDATA[<=]]></en>
+    <el><![CDATA[<=]]></el>
+  </op10>
+  <op11 type="button" style="width:30px" onclick="oConditional.setCharacter('&gt;=');">
+    <en><![CDATA[>=]]></en>
+    <el><![CDATA[>=]]></el>
+  </op11>
+  <op12 type="button" style="width:40px" onclick="oConditional.setCharacter('!');">
+    <en><![CDATA[NOT]]></en>
+    <el><![CDATA[NOT]]></el>
+  </op12>
+  <op13 type="button" style="width:30px" onclick="oConditional.setCharacter('+');">
+    <en><![CDATA[+]]></en>
+    <el><![CDATA[+]]></el>
+  </op13>
+  <op14 type="button" style="width:30px" onclick="oConditional.setCharacter('==');">
+    <en><![CDATA[==]]></en>
+    <el><![CDATA[==]]></el>
+  </op14>
+  <op15 type="button" style="width:30px" onclick="oConditional.setCharacter('!=');">
+    <en><![CDATA[!=]]></en>
+    <el><![CDATA[!=]]></el>
+  </op15>
+  <op16 type="button" style="width:40px" onclick="oConditional.showDynavars(event);">
+    <en><![CDATA[@#]]></en>
+    <el><![CDATA[@#]]></el>
+  </op16>
+  <eventOnload type="checkbox" value="1" falsevalue="0" defaultvalue="0" labelonright="1" enablehtml="0">
+    <en><![CDATA[On load event]]></en>
+    <el><![CDATA[On load event]]></el>
+  </eventOnload>
+  <eventOnchange type="checkbox" value="1" falsevalue="0" defaultvalue="0" labelonright="1" enablehtml="0">
+    <en><![CDATA[On change event]]></en>
+    <el><![CDATA[Γεγονός αλλαγής]]></el>
+  </eventOnchange>
+  <event_owner type="listbox" required="0" size="6" width="250">
+    <en><![CDATA[Field event owner]]></en>
+    <el><![CDATA[Field event owner]]></el>
+  </event_owner>
+  <event_owner_selected type="listbox" required="0" size="6" width="250">
+    <en><![CDATA[Selected field event owner]]></en>
+    <el><![CDATA[Κάτοχος επιλεγμένου πεδίου γεγονότος]]></el>
+  </event_owner_selected>
+  <FCD_STATUS type="checkbox" value="1" falsevalue="0" defaultvalue="1" labelonright="1" enablehtml="0">
+    <en><![CDATA[Enabled]]></en>
+    <el><![CDATA[Ενεργοποιημένο]]></el>
+  </FCD_STATUS>
+  <test_condition type="button" onclick="oConditional.testCondition()" style="width:108px">
+    <en><![CDATA[Test condition]]></en>
+    <el><![CDATA[Test condition]]></el>
+  </test_condition>
+  <BTN_CANCEL type="button" onclick="cancel();">
+    <en><![CDATA[Cancel]]></en>
+    <el><![CDATA[Ακύρωση]]></el>
+  </BTN_CANCEL>
+  <save_condition type="button" onclick="oConditional.saveCondition()">
+    <en><![CDATA[Save]]></en>
+    <el><![CDATA[Αποθήκευση]]></el>
+  </save_condition>
+  <jsc type="javascript"><![CDATA[
+
+    if( @@FCD_UID != '0' ){
+        oConditional.populateEdit();
+    } else {
+        oConditional.populate();
+    }
+    
+    leimnud.event.add(getField('FCD_CONDITION'), 'change', function() {
+        oConditional.conditionTested = false;
+    }.extend(getField('FCD_CONDITION')));
+
+    function cancel(){
+        conditionEditorPanel.remove();
+        // oConditional.cancelSave();
+    }    
+  ]]></jsc>
+</dynaForm>

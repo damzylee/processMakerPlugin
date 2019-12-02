@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="uplogoList" width="250" mode="edit" border="0" enableTemplate="0" height="75px" menu="setup/logo_Option">
+  <id type="text">
+    <en><![CDATA[No.]]></en>
+    <el><![CDATA[No.]]></el>
+  </id>
+  <LOG0_IMACE type="text" size="36" maxlength="12" enableHTML="1">
+    <en><![CDATA[Imagen]]></en>
+    <el><![CDATA[Imagen]]></el>
+  </LOG0_IMACE>
+  <LOG0_NAME type="text" size="15" maxlength="12">
+    <en><![CDATA[name]]></en>
+    <el><![CDATA[Όνομα]]></el>
+  </LOG0_NAME>
+  <LOG0_SIZE type="text" size="15" maxlength="12">
+    <en><![CDATA[size]]></en>
+    <el><![CDATA[Μέγεθος]]></el>
+  </LOG0_SIZE>
+  <LOG0_DESCRIPTION type="text" size="15" maxlength="12">
+    <en><![CDATA[Description]]></en>
+    <el><![CDATA[Περιγραφή]]></el>
+  </LOG0_DESCRIPTION>
+  <LOGO_SELECTED type="text" size="15" maxlength="12" enableHTML="1">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </LOGO_SELECTED>
+  <DELETE_LOGO type="link" colWidth="50" value="Delete" link="#" onclick="deleteLogo('@#LOG0_NAME'); return;"/>
+</dynaForm>

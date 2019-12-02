@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="wizardOptions" type="grid" width="100%" editRow="0" insertRow="0">
+  <NAME type="text" validate="Field">
+    <en><![CDATA[Param Name]]></en>
+    <el><![CDATA[Όνομα Παραμέτρου]]></el>
+  </NAME>
+  <VALUE type="text">
+    <en><![CDATA[Param Value]]></en>
+    <el><![CDATA[Τιμή παραμέτρου]]></el>
+  </VALUE>
+</dynaForm>

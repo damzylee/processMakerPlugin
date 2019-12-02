@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="AppFolder" width="600" mode="edit" enableTemplate="0" border="0">
+  <title1 type="title">
+    <en><![CDATA[AppFolder form]]></en>
+    <el><![CDATA[AppFolder φόρμα]]></el>
+  </title1>
+  <FOLDER_UID type="text" size="32" maxlength="32">
+    <en><![CDATA[Folder Uid]]></en>
+    <el><![CDATA[Uid Φακέλου]]></el>
+  </FOLDER_UID>
+  <FOLDER_PARENT_UID type="text" size="32" maxlength="32">
+    <en><![CDATA[Folder Parent Uid]]></en>
+    <el><![CDATA[Uid Γονικού Φακέλου]]></el>
+  </FOLDER_PARENT_UID>
+  <FOLDER_NAME type="textarea" size="25" maxlength="25">
+    <en><![CDATA[Folder Name]]></en>
+    <el><![CDATA[Όνομα Φακέλου]]></el>
+  </FOLDER_NAME>
+  <FOLDER_CREATE_DATE type="date" size="25" maxlength="25">
+    <en><![CDATA[Folder Create Date]]></en>
+    <el><![CDATA[Ημερ. Δημιουργίας Φακέλου]]></el>
+  </FOLDER_CREATE_DATE>
+  <FOLDER_UPDATE_DATE type="date" size="25" maxlength="25">
+    <en><![CDATA[Folder Update Date]]></en>
+    <el><![CDATA[Ημερ. Ενημέρωσης Φακέλου]]></el>
+  </FOLDER_UPDATE_DATE>
+  <BTN_SUBMIT type="submit">
+    <en><![CDATA[save]]></en>
+    <el><![CDATA[Αποθήκευση]]></el>
+  </BTN_SUBMIT>
+</dynaForm>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="tracker_DynaDocs" width="100%" rowsPerPage="50" menu="">
+  <APP_UID type="private" showInTable="0"/>
+  <APP_MSG_UID type="private" showInTable="0"/>
+  <APP_MSG_DATE type="text" colWidth="150" titleAlign="left" align="left">
+    <en><![CDATA[DATE]]></en>
+    <el><![CDATA[Ημερομηνία]]></el>
+  </APP_MSG_DATE>
+  <APP_MSG_SUBJECT type="text" colWidth="200" titleAlign="left" align="left">
+    <en><![CDATA[SUBJECT]]></en>
+    <el><![CDATA[Θέμα]]></el>
+  </APP_MSG_SUBJECT>
+  <APP_MSG_FROM type="text" colWidth="200" titleAlign="left" align="left">
+    <en><![CDATA[FROM]]></en>
+    <el><![CDATA[Από]]></el>
+  </APP_MSG_FROM>
+  <APP_MSG_TO type="text" colWidth="200" titleAlign="left" align="left">
+    <en><![CDATA[TO]]></en>
+    <el><![CDATA[ΠΡΟΣ]]></el>
+  </APP_MSG_TO>
+  <VIEW type="link" colWidth="50" link="tracker_MessagesView?APP_UID=@#APP_UID&amp;APP_MSG_UID=@#APP_MSG_UID" value="@#VIEW">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </VIEW>
+</dynaForm>

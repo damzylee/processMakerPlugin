@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="mail" width="500" xmlform_type="NORMAL">
+  <TITLE6171 type="title" group="9">
+    <en><![CDATA[Email Settings]]></en>
+    <el><![CDATA[Email Ρυθμίσεις]]></el>
+  </TITLE6171>
+  <MAILER type="dropdown" defaultvalue="mail" required="0" group="1" dependentfields="" readonly="0" sqlconnection="">
+    <en><![CDATA[Method]]><option name="mail"><![CDATA[sendmail]]></option><option name="smtp"><![CDATA[SMTP]]></option></en>
+    <el><![CDATA[SMTP]]><option name="mail"><![CDATA[sendmail]]></option><option name="smtp"><![CDATA[SMTP]]></option></el>
+  </MAILER>
+  <HOST type="text" size="35" maxlength="35" validate="0" defaultvalue="" required="0" group="1" dependentfields="" linkfield="" strto="" readonly="0" sqlconnection="">
+    <en><![CDATA[Server]]></en>
+    <el><![CDATA[Server]]></el>
+  </HOST>
+  <PORT type="text" size="10" maxlength="5" validate="2" defaultvalue="" required="0" group="1" dependentfields="" linkfield="" strto="" readonly="0" sqlconnection="">
+    <en><![CDATA[Port]]></en>
+    <el><![CDATA[Πόρτα]]></el>
+  </PORT>
+  <TIMEOUT type="text" size="10" maxlength="5" validate="2" defaultvalue="" required="0" group="1" dependentfields="" linkfield="" strto="" readonly="0" sqlconnection="">
+    <en><![CDATA[Timeout]]></en>
+    <el><![CDATA[Timeout]]></el>
+  </TIMEOUT>
+  <SMTPAUTH type="yesno" required="0" group="1" readonly="0">
+    <en><![CDATA[Requires Authentication]]></en>
+    <el><![CDATA[Απαιτεί έλεγχο ταυτότητας]]></el>
+  </SMTPAUTH>
+  <USERNAME type="text" size="35" maxlength="35" validate="0" defaultvalue="" required="0" group="1" dependentfields="" linkfield="" strto="" readonly="0" sqlconnection="">
+    <en><![CDATA[Email Account]]></en>
+    <el><![CDATA[Email Account]]></el>
+  </USERNAME>
+  <PASSWORD type="password" size="35" maxlength="35" required="0" group="1" readonly="0">
+    <en><![CDATA[Password]]></en>
+    <el><![CDATA[Κωδικός]]></el>
+  </PASSWORD>
+  <BSUBMIT type="submit" group="1">
+    <en><![CDATA[Save]]></en>
+    <el><![CDATA[Αποθήκευση]]></el>
+  </BSUBMIT>
+  <BTEST type="button" group="1" onclick="testEmail();return false;">
+    <en><![CDATA[Test]]></en>
+    <el><![CDATA[Test]]></el>
+  </BTEST>
+</dynaForm>

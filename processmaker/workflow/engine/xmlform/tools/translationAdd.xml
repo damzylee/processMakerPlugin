@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="tools" width="600" mode="edit" enableTemplate="0" border="0">
+  <titles type="title">
+    <en><![CDATA[Insert Translation]]></en>
+    <el><![CDATA[Εισαγωγή Μετάφρασης]]></el>
+  </titles>
+  <trn_category type="dropdown">
+    <en><![CDATA[category]]><option name="LABEL"><![CDATA[Label]]></option><option name="JAVASCRIPT"><![CDATA[Javascript]]></option></en>
+    <el><![CDATA[Javascript]]><option name="LABEL"><![CDATA[Label]]></option><option name="JAVASCRIPT"><![CDATA[Javascript]]></option></el>
+  </trn_category>
+  <trn_id type="text" size="45">
+    <en><![CDATA[Id]]></en>
+    <el><![CDATA[Id]]></el>
+  </trn_id>
+  <trn_value type="textarea" rows="3" cols="43" maxlength="200">
+    <en><![CDATA[value]]></en>
+    <el><![CDATA[τιμή]]></el>
+  </trn_value>
+  <rowsJS type="submit">
+    <en><![CDATA[save]]></en>
+    <el><![CDATA[Αποθήκευση]]></el>
+  </rowsJS>
+</dynaForm>

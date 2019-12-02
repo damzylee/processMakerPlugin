@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="Objectpm" menu="processes/processes_ListPublicMenu" width="100%" type="pagedtable">
+  <title type="text" colWidth="160">
+    <en><![CDATA[Title]]></en>
+    <el><![CDATA[Τίτλος]]></el>
+  </title>
+  <category type="text" colWidth="100">
+    <en><![CDATA[Category]]></en>
+    <el><![CDATA[Κατηγορία]]></el>
+  </category>
+  <version type="text" colWidth="50">
+    <en><![CDATA[Version]]></en>
+    <el><![CDATA[Έκδοση]]></el>
+  </version>
+  <downloads type="text" colWidth="50">
+    <en><![CDATA[Downloads]]></en>
+    <el><![CDATA[Κατεβασμένα]]></el>
+  </downloads>
+  <rating type="text" colWidth="50">
+    <en><![CDATA[Rating]]></en>
+    <el><![CDATA[Βαθμολόγηση]]></el>
+  </rating>
+  <subscriptions type="text" colWidth="70">
+    <en><![CDATA[Subscriptions]]></en>
+    <el><![CDATA[Εγγραφές]]></el>
+  </subscriptions>
+  <user type="text" colWidth="80">
+    <en><![CDATA[Author]]></en>
+    <el><![CDATA[Δημιουργός]]></el>
+  </user>
+  <updateDate type="text" colWidth="120">
+    <en><![CDATA[Update Date]]></en>
+    <el><![CDATA[Ημερ. Ενημέρωσης]]></el>
+  </updateDate>
+  <LINK type="link" colWidth="60" titleAlign="left" align="left" link="javascript:showDetails(@@guid);" value="@G::LoadTranslation(ID_VIEW)">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </LINK>
+</dynaForm>

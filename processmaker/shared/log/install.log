@@ -1,0 +1,17 @@
+2019:08:30 15:21:39 -------------------------------------------
+2019:08:30 15:21:39 Creating workspace workflow
+2019:08:30 15:21:39 Connected to server localhost :3306  using user: 'root'
+2019:08:30 15:21:39 GRANT ALL PRIVILEGES ON `wf_workflow`.* TO wf_5d693f037ce15@'localhost' IDENTIFIED BY '-P1CNx2EGVvHhsj' WITH GRANT OPTION
+2019:08:30 15:21:39 Creating : /opt/processmaker/shared//sites/workflow/db.php
+2019:08:30 15:21:39 Creating : /opt/processmaker/shared//sites/workflow/databases.php
+2019:08:30 15:21:39 Processing: /opt/processmaker/rbac/engine/data/mysql/schema.sql
+2019:08:30 15:21:39 File: schema.sql processed in 0.053523063659668 seconds
+2019:08:30 15:21:39 Processing: /opt/processmaker/rbac/engine/data/mysql/insert.sql
+2019:08:30 15:21:39 File: insert.sql processed in 0.015323162078857 seconds
+2019:08:30 15:21:39 Processing: /opt/processmaker/workflow/engine/data/mysql/schema.sql
+2019:08:30 15:21:40 File: schema.sql processed in 1.0651841163635 seconds
+2019:08:30 15:21:40 Processing: /opt/processmaker/workflow/engine/data/mysql/insert.sql
+2019:08:30 15:21:41 File: insert.sql processed in 1.0588188171387 seconds
+2019:08:30 15:21:41 Creating : /opt/processmaker/workflow/engine/config/paths_installed.php
+2019:08:30 15:21:41 Index File updated 1 with lang: {en}, skin: {neoclassic}
+2019:08:30 15:21:41 Installation completed successfully.

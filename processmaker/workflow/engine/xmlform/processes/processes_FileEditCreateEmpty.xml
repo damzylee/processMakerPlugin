@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="processes_FileEdit" type="xmlform" width="100%" enableTemplate="1">
+  <emptyfilename type="text" size="30" defaultValue="" validate="AlphaNum">
+    <en><![CDATA[Filename]]></en>
+    <el><![CDATA[Όνομα Αρχείου]]></el>
+  </emptyfilename>
+  <ACCEPT type="button" onclick="saveEmptyFile();">
+    <en><![CDATA[Create]]></en>
+    <el><![CDATA[Δημιουργία]]></el>
+  </ACCEPT>
+</dynaForm>

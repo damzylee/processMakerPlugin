@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="workflow">
+  <table name="PMT_CUSTOMERS">
+    <vendor type="mysql">
+      <parameter name="Collation" value="utf8_general_ci"/>
+    </vendor>
+    <column name="CUSTOMER_ID" type="VARCHAR" size="10" required="true" primaryKey="true"/>
+    <column name="FIRST_NAME" type="VARCHAR" size="50" required="true"/>
+    <column name="LAST_NAME" type="VARCHAR" size="50" required="true"/>
+  </table>
+</database>

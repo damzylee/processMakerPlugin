@@ -1,0 +1,3 @@
+<200> Aug 30 23:25:07 CreateCase INFO: Start writing the log file []
+<200> Aug 30 23:25:07 CreateCase INFO: Create case {"appUid":"2760195965d6986230cbbc2002463218","usrUid":"00000000000000000000000000000001","tasUid":"1753087545d698526e6ef47028569479","isSubprocess":false,"appNumber":1,"delIndex":1,"appInitDate":"2019-08-30 23:25:07"}
+<200> Aug 30 23:25:46 CaseDerivation INFO: Case Derivation {"ip":"192.168.1.61","workspace":"workflow","timeZone":"2019-08-30 23:08:46","usrUid":"00000000000000000000000000000001","appUid":"2760195965d6986230cbbc2002463218","delIndex":"1","tasUid":"-1","action":"end-process"}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="emails_TestForm" type="xmlform" width="100%" labelWidth="">
+  <MESSAGE_VALUE type="private"/>
+  <MESSAGE type="title">
+    <en><![CDATA[@#MESSAGE_VALUE]]></en>
+    <el><![CDATA[@#MESSAGE_VALUE]]></el>
+  </MESSAGE>
+  <ClOSE type="button" onclick="closeTestPanel();">
+    <en><![CDATA[Close]]></en>
+    <el><![CDATA[Close]]></el>
+  </ClOSE>
+</dynaForm>

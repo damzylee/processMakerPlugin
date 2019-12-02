@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="showMessage" version="1.0" basedir="" xmlform_type="NORMAL" width="520px" labelwidth="0">
+  <TITLE type="title">
+    <en><![CDATA[Error]]></en>
+    <el><![CDATA[Λάθος]]></el>
+  </TITLE>
+  <MESSAGE type="text" enableHtml="1" mode="view">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </MESSAGE>
+</dynaForm>

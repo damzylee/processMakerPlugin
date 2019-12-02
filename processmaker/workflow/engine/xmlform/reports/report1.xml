@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="pagetable" sqlConnection="" menu="reports/report1_back">
+  <PRO_UID type="private" showInTable="0"/>
+  <PRO_TITLE type="text" align="left" colWidth="300">
+    <en><![CDATA[Processes]]></en>
+    <el><![CDATA[Διαδικασίες]]></el>
+  </PRO_TITLE>
+  <CANTCASES type="text" align="right" colWidth="80">
+    <en><![CDATA[Cases]]></en>
+    <el><![CDATA[Εργασίες]]></el>
+  </CANTCASES>
+  <MIN type="hours" align="right" colWidth="120">
+    <en><![CDATA[Best Completion Time]]></en>
+    <el><![CDATA[Χρόνος Νωρίτερης Ολοκλήρωσης]]></el>
+  </MIN>
+  <MAX type="hours" align="right" colWidth="120">
+    <en><![CDATA[Slowest Completion Time]]></en>
+    <el><![CDATA[Χρόνος Αργότερης Ολοκλήρωσης]]></el>
+  </MAX>
+  <TOTALDUR type="hours" align="right" colWidth="100">
+    <en><![CDATA[Total Duration (Hours)]]></en>
+    <el><![CDATA[Συνολική Διάρκεια (Ώρες)]]></el>
+  </TOTALDUR>
+  <PROMEDIO type="text" align="right" colWidth="100">
+    <en><![CDATA[Average (Hours)]]></en>
+    <el><![CDATA[Μέσος όρος (Ώρες)]]></el>
+  </PROMEDIO>
+  <RPT_VIEW type="link" colWidth="60" link="#" onclick="panDel('@#PRO_UID');return false;">
+    <en><![CDATA[Details]]></en>
+    <el><![CDATA[Λεπτομέρειες]]></el>
+  </RPT_VIEW>
+</dynaForm>

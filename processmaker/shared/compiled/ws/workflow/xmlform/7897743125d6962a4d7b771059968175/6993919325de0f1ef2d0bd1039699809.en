@@ -1,0 +1,35 @@
+<?php
+$this->id='YXB0cG8yZW5aMkdpcVpXanJtdHIwMlhSYXNWbm8yR2phV21wcW1tZXJHcG9xR3FtWnB4aHBXT2xhWlRWcEplZTJwdHIxbUhQbDVSZ24ybXBiV21vcEdxYjdhS2w___';
+$this->width='500';
+$this->title='';
+$this->fields = unserialize( 'a:0:{}' );
+$this->values = unserialize( 'a:0:{}' );
+$this->action='';
+$this->ajaxServer='';
+$this->enableTemplate='0';
+$this->ajaxSubmit=false;
+$this->callback='function(){}';
+$this->in_progress='function(){}';
+$this->template=null;
+$this->className='formDefault';
+$this->objectRequiredFields='[]';
+$this->nextstepsave='prompt';
+$this->printdynaform='';
+$this->adjustgridswidth='0';
+$this->visual_frontend=null;
+$this->tree = unserialize( 'O:8:"Xml_Node":5:{s:4:"name";s:8:"dynaForm";s:4:"type";s:8:"complete";s:5:"value";s:1:"
+";s:10:"attributes";a:6:{s:4:"type";s:7:"xmlform";s:4:"name";s:65:"7897743125d6962a4d7b771059968175/6993919325de0f1ef2d0bd1039699809";s:5:"width";s:3:"500";s:14:"enabletemplate";s:1:"0";s:4:"mode";s:0:"";s:12:"nextstepsave";s:6:"prompt";}s:8:"children";a:0:{}}' );
+$this->name='7897743125d6962a4d7b771059968175_6993919325de0f1ef2d0bd1039699809';
+$this->language='en';
+$this->version='0.3';
+$this->type='xmlform';
+$this->sql=null;
+$this->sqlConnection=null;
+$this->height='100%';
+$this->border=1;
+$this->mode='';
+$this->labelWidth='40%';
+$this->onsubmit='';
+$this->requiredFields = unserialize( 'a:0:{}' );
+$this->fieldContentWidth=450;
+?>

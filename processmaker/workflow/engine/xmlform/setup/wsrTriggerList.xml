@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm rowsPerPage="24">
+  <guid type="text" colWidth="200" align="left" titleAlign="left">
+    <en><![CDATA[GUID]]></en>
+    <el><![CDATA[GUID]]></el>
+  </guid>
+  <name type="text" colWidth="280" align="left" titleAlign="left">
+    <en><![CDATA[Task Title]]></en>
+    <el><![CDATA[Τίτλος Εργασίας]]></el>
+  </name>
+  <processId type="text" colWidth="280" align="left" titleAlign="left">
+    <en><![CDATA[Process GUID/Title]]></en>
+    <el><![CDATA[Διαδικασία GUID/Τίτλος]]></el>
+  </processId>
+</dynaForm>

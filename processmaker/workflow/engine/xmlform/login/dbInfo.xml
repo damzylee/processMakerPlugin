@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="dbInfo" basedir="" width="450" enableTemplate="0" ajaxSubmit="0">
+  <ENVIRONMENT type="hidden"/>
+  <DYNA_HEADER type="title">
+    <en><![CDATA[System Information]]></en>
+    <el><![CDATA[Πληροφορίες συστήματος]]></el>
+  </DYNA_HEADER>
+  <FLUID type="caption" group="5">
+    <en><![CDATA[ProcessMaker]]></en>
+    <el><![CDATA[ProcessMaker]]></el>
+  </FLUID>
+  <SYSTEM type="caption">
+    <en><![CDATA[Operating System]]></en>
+    <el><![CDATA[Λειτουργικό σύστημα]]></el>
+  </SYSTEM>
+  <TIME_ZONE type="caption">
+    <en><![CDATA[Time zone]]></en>
+    <el><![CDATA[Time zone]]></el>
+  </TIME_ZONE>
+  <SERVER_SOFTWARE type="caption">
+    <en><![CDATA[Web Server]]></en>
+    <el><![CDATA[Web Server]]></el>
+  </SERVER_SOFTWARE>
+  <SERVER_NAME type="caption" group="4">
+    <en><![CDATA[Server Name]]></en>
+    <el><![CDATA[Server Name]]></el>
+  </SERVER_NAME>
+  <SERVER_ADDR type="caption">
+    <en><![CDATA[Server IP Address]]></en>
+    <el><![CDATA[Server IP Address]]></el>
+  </SERVER_ADDR>
+  <PHP type="caption">
+    <en><![CDATA[PHP version]]></en>
+    <el><![CDATA[PHP έκδοση]]></el>
+  </PHP>
+  <DATABASE type="caption">
+    <en><![CDATA[Database]]></en>
+    <el><![CDATA[Database]]></el>
+  </DATABASE>
+  <DATABASE_SERVER type="caption">
+    <en><![CDATA[Database Server IP Address]]></en>
+    <el><![CDATA[Database Server IP Address]]></el>
+  </DATABASE_SERVER>
+  <DATABASE_NAME type="caption">
+    <en><![CDATA[Database Name]]></en>
+    <el><![CDATA[Όνομα Βάσης Δεδομένων]]></el>
+  </DATABASE_NAME>
+  <AVAILABLE_DB type="caption">
+    <en><![CDATA[Available Databases]]></en>
+    <el><![CDATA[Διαθέσιμές Βάσεις Δεδομένων]]></el>
+  </AVAILABLE_DB>
+  <HTTP_USER_AGENT type="caption">
+    <en><![CDATA[User's Browser]]></en>
+    <el><![CDATA[Χρήστης's Browser]]></el>
+  </HTTP_USER_AGENT>
+  <IP type="caption">
+    <en><![CDATA[User's Ip Address]]></en>
+    <el><![CDATA[Χρήστης's Ip Address]]></el>
+  </IP>
+  <JS type="javascript"><![CDATA[
+// note added by carlos pacha carlos[at]colosa[dot]com pckrlos[at]gmail[dot]com
+// the following fields are hidden if we've not chosen a workspace. Related 8021 bug
+//var dynaformOnload = function(){
+  if(getField('ENVIRONMENT').value=='Not defined'){
+  hideRowById('DATABASE')
+  hideRowById('DATABASE_SERVER');
+  hideRowById('DATABASE_NAME');
+  hideRowById('AVAILABLE_DB');
+  }
+//};
+]]></JS>
+</dynaForm>

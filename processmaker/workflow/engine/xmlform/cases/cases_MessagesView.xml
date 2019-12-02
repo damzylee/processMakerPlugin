@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="xmlform" name="" width="500" menu="">
+  <title type="title">
+    <en><![CDATA[MESSAGE]]></en>
+    <el><![CDATA[MESSAGE]]></el>
+  </title>
+  <APP_MSG_SUBJECT type="text" mode="view">
+    <en><![CDATA[SUBJECT]]></en>
+    <el><![CDATA[Θέμα]]></el>
+  </APP_MSG_SUBJECT>
+  <APP_MSG_FROM type="text" mode="view">
+    <en><![CDATA[FROM]]></en>
+    <el><![CDATA[Από]]></el>
+  </APP_MSG_FROM>
+  <APP_MSG_TO type="text" mode="view">
+    <en><![CDATA[TO]]></en>
+    <el><![CDATA[έως]]></el>
+  </APP_MSG_TO>
+  <APP_MSG_DATE type="text" mode="view">
+    <en><![CDATA[DATE]]></en>
+    <el><![CDATA[ΗΜΕΡΟΜΗΝΙΑ]]></el>
+  </APP_MSG_DATE>
+  <APP_MSG_BODY type="text" cols="70" rows="10" mode="view" enableHTML="1">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </APP_MSG_BODY>
+</dynaForm>

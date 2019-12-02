@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="SendVariables" width="500" mode="edit" border="0" enableTemplate="0" height="350px">
+  <SESSION_ID type="text" size="36" maxlength="32">
+    <en><![CDATA[Session Id]]></en>
+    <es><![CDATA[Id de Sesión]]></es>
+    <el><![CDATA[Id συνεδρίας σύνδεσης]]></el>
+  </SESSION_ID>
+  <CASE_ID type="dropdown" sqlConnection="dbarray">
+  SELECT * from case
+  <en><![CDATA[Case ID]]></en>
+<el><![CDATA[ID Εργασίας]]></el></CASE_ID>
+  <FROM type="text" size="30">
+    <en><![CDATA[From]]></en>
+    <el><![CDATA[Από]]></el>
+  </FROM>
+  <TO_EMAIL type="text" size="30">
+    <en><![CDATA[TO]]></en>
+    <el><![CDATA[ΠΡΟΣ]]></el>
+  </TO_EMAIL>
+  <CC_EMAIL type="text" size="30">
+    <en><![CDATA[CC]]></en>
+    <el><![CDATA[ΚΟΙΝ.]]></el>
+  </CC_EMAIL>
+  <BCC_MAIL type="text" size="30">
+    <en><![CDATA[BCC]]></en>
+    <el><![CDATA[ΚΡΥΦΗ ΚΟΙΝ.]]></el>
+  </BCC_MAIL>
+  <SUBJECT type="text" size="30">
+    <en><![CDATA[Subject]]></en>
+    <el><![CDATA[Θέμα]]></el>
+  </SUBJECT>
+  <MESSAGE type="textarea" cols="42" rows="8">
+    <en><![CDATA[Message]]></en>
+    <el><![CDATA[ΜΗΝΥΜΑ]]></el>
+  </MESSAGE>
+  <ACTION type="hidden">
+</ACTION>
+  <ACTIONB type="button" onclick="submitThisForm(this.form);">
+    <en><![CDATA[SendMessage]]></en>
+    <es>Enviar Mensaje</es>
+    <el><![CDATA[SendMessage]]></el>
+  </ACTIONB>
+</dynaForm>

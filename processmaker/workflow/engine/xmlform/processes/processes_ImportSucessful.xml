@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="processes_New" width="500px" labelWidth="90px" enableTemplate="0">
+  <title type="title">
+    <en><![CDATA[Process sucessfully imported]]></en>
+    <el><![CDATA[Process sucessfully imported]]></el>
+  </title>
+  <pro_title type="caption" size="40">
+    <en><![CDATA[Process Title]]></en>
+    <el><![CDATA[Τίτλος Διαδικασίας]]></el>
+  </pro_title>
+  <version type="caption" size="40">
+    <en><![CDATA[Version]]></en>
+    <el><![CDATA[Έκδοση]]></el>
+  </version>
+  <category type="caption" size="40">
+    <en><![CDATA[Category]]></en>
+    <el><![CDATA[Κατηγορία]]></el>
+  </category>
+  <PRO_UID type="caption" size="40">
+    <en><![CDATA[Process Uid]]></en>
+    <el><![CDATA[Διαδικασία Uid]]></el>
+  </PRO_UID>
+  <TITLE1 type="subtitle">
+    <en><![CDATA[Please follow these instructions to complete installation]]></en>
+    <el><![CDATA[Παρακαλώ ακουθήστε τις οδηγίες για να συπληρώσετε την εγκατάσταση]]></el>
+  </TITLE1>
+  <installSteps type="caption" enableHtml="1">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </installSteps>
+  <SUBMIT type="submit">
+    <en><![CDATA[Continue]]></en>
+    <el><![CDATA[Συνέχεια]]></el>
+  </SUBMIT>
+</dynaForm>

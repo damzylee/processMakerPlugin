@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm width="100%" rowsPerPage="18">
+  <APP_UID type="CheckboxTable" colWidth="3" titleAlign="left" align="left" value="@#USR_UID">
+    <en/>
+  </APP_UID>
+  <APP_NUMBER type="text" colWidth="50" titleAlign="left" align="left" enableHtml="1">
+    <en><![CDATA[Case #]]></en>
+    <el><![CDATA[Εργασία #]]></el>
+  </APP_NUMBER>
+  <APP_TAS_TITLE type="text" colWidth="220" titleAlign="left" align="left" enableHtml="1">
+    <en><![CDATA[Task]]></en>
+    <el><![CDATA[Εργασία]]></el>
+  </APP_TAS_TITLE>
+  <APP_PRO_TITLE type="text" colWidth="220" titleAlign="left" align="left" enableHtml="1">
+    <en><![CDATA[Process]]></en>
+    <el><![CDATA[Διαδικασία]]></el>
+  </APP_PRO_TITLE>
+  <DEL_PRIORITY type="dropdown" colWidth="50">
+    <en><![CDATA[Priority]]><option name="1"><![CDATA[Very High]]></option><option name="2"><![CDATA[High]]></option><option name="3"><![CDATA[Normal]]></option><option name="4"><![CDATA[Low]]></option><option name="5"><![CDATA[Very Low]]></option></en>
+    <el><![CDATA[Πολύ Χαμηλή]]><option name="1"><![CDATA[Very High]]></option><option name="2"><![CDATA[High]]></option><option name="3"><![CDATA[Normal]]></option><option name="4"><![CDATA[Low]]></option><option name="5"><![CDATA[Very Low]]></option></el>
+  </DEL_PRIORITY>
+  <DEL_INIT_DATE type="text" colWidth="130" titleAlign="left" align="left" enableHtml="1">
+    <en><![CDATA[Init. date]]></en>
+    <el><![CDATA[Ημερ. Έναρξης]]></el>
+  </DEL_INIT_DATE>
+  <DEL_TASK_DUE_DATE type="text" colWidth="135" titleAlign="left" align="left" enableHtml="1">
+    <en><![CDATA[Due date]]></en>
+    <el><![CDATA[Ημερ. προθεσμίας]]></el>
+  </DEL_TASK_DUE_DATE>
+  <APP_STATUS type="dropdown" colWidth="50">
+    <en><![CDATA[Status]]><option name="TO_DO"><![CDATA[TODO]]></option><option name="DRAFT"><![CDATA[DRAFT]]></option></en>
+    <el><![CDATA[DRAFT]]><option name="TO_DO"><![CDATA[TODO]]></option><option name="DRAFT"><![CDATA[DRAFT]]></option></el>
+  </APP_STATUS>
+  <PAGED_TABLE_ID type="private" showInTable="0"/>
+  <JSFILTER type="javascript" replaceTags="1" showInTable="0">
+function pagedTableFilter( form ) {
+  @#PAGED_TABLE_ID.doFilter( form );
+}
+</JSFILTER>
+</dynaForm>

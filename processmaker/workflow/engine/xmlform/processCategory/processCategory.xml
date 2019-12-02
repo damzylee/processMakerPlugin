@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="processCategory" width="600" mode="edit" enableTemplate="0" border="0">
+  <title1 type="title">
+    <en><![CDATA[Process Category form]]></en>
+    <el><![CDATA[φόρμα Κατηγορία Διαδικασίας]]></el>
+  </title1>
+  <CATEGORY_UID type="text" size="32" maxlength="32">
+    <en><![CDATA[Category UID]]></en>
+    <el><![CDATA[UID Κατηγορίας]]></el>
+  </CATEGORY_UID>
+  <CATEGORY_PARENT type="text" size="32" maxlength="32">
+    <en><![CDATA[Category Parent]]></en>
+    <el><![CDATA[Γονιική Κατηγορία]]></el>
+  </CATEGORY_PARENT>
+  <CATEGORY_NAME type="text" size="60" maxlength="100">
+    <en><![CDATA[Category Name]]></en>
+    <el><![CDATA[Όνομα Κατηγορίας]]></el>
+  </CATEGORY_NAME>
+  <CATEGORY_ICON type="text" size="60" maxlength="100">
+    <en><![CDATA[Category Icon]]></en>
+    <el><![CDATA[Εικόνα Κατηγογίας]]></el>
+  </CATEGORY_ICON>
+  <BTN_SUBMIT type="submit">
+    <en><![CDATA[Save]]></en>
+    <el><![CDATA[Αποθήκευση]]></el>
+  </BTN_SUBMIT>
+</dynaForm>

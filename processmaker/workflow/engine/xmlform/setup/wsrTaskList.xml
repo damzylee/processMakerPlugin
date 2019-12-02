@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm>
+  <guid type="text" colWidth="200" align="left" titleAlign="left">
+    <en><![CDATA[GUID]]></en>
+    <es>GUID</es>
+    <el><![CDATA[GUID]]></el>
+  </guid>
+  <name type="text" colWidth="280" align="left" titleAlign="left">
+    <en><![CDATA[Task Title]]></en>
+    <es><![CDATA[Título de la Tarea]]></es>
+    <el><![CDATA[Τίτλος Εργασίας]]></el>
+  </name>
+</dynaForm>

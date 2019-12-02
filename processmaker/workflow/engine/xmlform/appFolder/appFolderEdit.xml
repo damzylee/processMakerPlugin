@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="AppFolder" width="540" mode="edit" enableTemplate="1" border="0">
+  <title1 type="title">
+    <en><![CDATA[New Folder]]></en>
+    <el><![CDATA[Νέος Φάκελος]]></el>
+  </title1>
+  <FOLDER_PATH type="caption" colWidth="32">
+    <en><![CDATA[Path]]></en>
+    <el><![CDATA[Μονοπάτι]]></el>
+  </FOLDER_PATH>
+  <FOLDER_UID type="hidden" size="32" maxlength="32">
+    <en>folder Uid
+  </en>
+  </FOLDER_UID>
+  <FOLDER_PARENT_UID type="hidden" size="32" maxlength="32">
+    <en>Parent Parent Uid
+  </en>
+  </FOLDER_PARENT_UID>
+  <FOLDER_NAME type="text" size="25" maxlength="25">
+    <en><![CDATA[Folder Name]]></en>
+    <el><![CDATA[Όνομα Φακέλου]]></el>
+  </FOLDER_NAME>
+  <BTN_CANCEL type="button" onclick="cancel();">
+    <en><![CDATA[Cancel]]></en>
+    <el><![CDATA[Ακύρωση]]></el>
+  </BTN_CANCEL>
+  <BTN_SUBMIT type="submit">
+    <en><![CDATA[Save]]></en>
+    <el><![CDATA[Αποθήκευση]]></el>
+  </BTN_SUBMIT>
+  <JS type="javascript" replacetags="1"><![CDATA[
+
+function cancel() {
+    oPanel.remove();
+}
+
+]]></JS>
+</dynaForm>

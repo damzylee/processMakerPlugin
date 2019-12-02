@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="xmlform" sqlConnection="" menu="">
+  <PRO_UID type="private"/>
+  <FROM_DES type="date" defaultvalue="" startdate="2008-01-01" enddate="" size="15" mode="edit">
+    <en><![CDATA[FROM]]></en>
+    <el><![CDATA[Από]]></el>
+  </FROM_DES>
+  <TO_DES type="date" defaultvalue="" startdate="2008-01-01" enddate="" size="15" mode="edit">
+    <en><![CDATA[TO]]></en>
+    <el><![CDATA[ΕΩΣ]]></el>
+  </TO_DES>
+  <STARTEDBY_DES type="dropdown" defaultvalue="" mode="edit" options="Array">
+	SELECT USR_UID, USR_USERNAME FROM USERS
+  <en><![CDATA[STARTED BY]]><option name=""><![CDATA[]]></option></en>
+<el><![CDATA[]]><option name=""><![CDATA[]]></option></el></STARTEDBY_DES>
+  <FILTER type="button" onclick="reports_Description_filter(getField('FROM_DES').value, getField('TO_DES').value, getField('STARTEDBY_DES').value, '@#PRO_UID');return false;">
+    <en><![CDATA[Filter]]></en>
+    <el><![CDATA[Φίλτρο]]></el>
+  </FILTER>
+  <js type="javascript">
+
+
+</js>
+</dynaForm>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="webservices" width="500" mode="edit" border="0" enableTemplate="0" height="205px">
+  <SESSION_ID type="text" size="36" maxlength="32">
+    <en><![CDATA[Session Id]]></en>
+    <es><![CDATA[Id de Sesión]]></es>
+    <el><![CDATA[Id συνεδρίας σύνδεσης]]></el>
+  </SESSION_ID>
+  <USER_ID type="text" size="32" maxlength="32">
+    <en><![CDATA[User ID]]></en>
+    <es>ID de Usuario</es>
+    <el><![CDATA[ID χρήστη]]></el>
+  </USER_ID>
+  <PASSWORD type="password" size="25" maxlength="32">
+    <en><![CDATA[Password]]></en>
+    <es><![CDATA[Contraseña]]></es>
+    <el><![CDATA[Κωδικός]]></el>
+  </PASSWORD>
+  <FIRST_NAME type="text" size="32" maxlength="32">
+    <en><![CDATA[First Name]]></en>
+    <es>Nombres</es>
+    <el><![CDATA[Όνομα]]></el>
+  </FIRST_NAME>
+  <LAST_NAME type="text" size="32" maxlength="32">
+    <en><![CDATA[Last Name]]></en>
+    <es>Apellidos</es>
+    <el><![CDATA[Επίθετο]]></el>
+  </LAST_NAME>
+  <EMAIL type="text" size="32" maxlength="32">
+    <en><![CDATA[Email]]></en>
+    <es><![CDATA[Correo Electrónico]]></es>
+    <el><![CDATA[Email]]></el>
+  </EMAIL>
+  <ROLE type="dropdown" sqlConnection="dbarray">
+  SELECT * from role
+  <en><![CDATA[Role]]></en>
+<es>Rol</es>
+<el><![CDATA[Ρόλος]]></el></ROLE>
+  <ACTION type="hidden">
+</ACTION>
+  <ACTIONB type="button" onclick="submitThisForm(this.form);">
+    <en><![CDATA[CreateUser]]></en>
+    <es>Craer Usuario</es>
+    <el><![CDATA[Δημιουργός]]></el>
+  </ACTIONB>
+</dynaForm>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="xmlform" width="60%">
+  <BTN_SUBMIT type="button" onclick="selectionX();">
+    <en><![CDATA[Assign]]></en>
+    <el><![CDATA[Ανάθεση]]></el>
+  </BTN_SUBMIT>
+</dynaForm>

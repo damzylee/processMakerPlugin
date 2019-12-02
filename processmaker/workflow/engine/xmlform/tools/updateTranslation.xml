@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="tools" width="680" mode="view" enableTemplate="0" border="0">
+  <titles type="title">
+    <en><![CDATA[UpdateTranslation]]></en>
+    <el><![CDATA[ΕνημέρωσηΜετάφρασης]]></el>
+  </titles>
+  <cacheFile type="text">
+    <en><![CDATA[file]]></en>
+    <el><![CDATA[Αρχείο]]></el>
+  </cacheFile>
+  <rows type="text">
+    <en><![CDATA[rows]]></en>
+    <el><![CDATA[Γραμμές]]></el>
+  </rows>
+  <titles2 type="title">
+    <en><![CDATA[JavaScript Update Translation]]></en>
+    <el><![CDATA[JavaScript Update Translation]]></el>
+  </titles2>
+  <cacheFileJS type="text">
+    <en><![CDATA[file]]></en>
+    <el><![CDATA[Αρχείο]]></el>
+  </cacheFileJS>
+  <rowsJS type="text">
+    <en><![CDATA[rows]]></en>
+    <el><![CDATA[Γραμμές]]></el>
+  </rowsJS>
+</dynaForm>

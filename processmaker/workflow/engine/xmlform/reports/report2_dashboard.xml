@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="pagetable" sqlConnection="" width="100%" rowsPerPage="3">
+  <PRO_TITLE type="text" align="center">
+    <en><![CDATA[Processes]]></en>
+    <el><![CDATA[Διαδικασίες]]></el>
+  </PRO_TITLE>
+  <CANTCASES type="text" align="center">
+    <en><![CDATA[Total Cases]]></en>
+    <el><![CDATA[Σύνολο Υποθέσεων]]></el>
+  </CANTCASES>
+  <MAX type="hours" align="center">
+    <en><![CDATA[Slowest Time]]></en>
+    <el><![CDATA[Αργότερος χρόνος]]></el>
+  </MAX>
+  <CASELASTMONTH type="text" align="center">
+    <en><![CDATA[Last month]]></en>
+    <el><![CDATA[Τελευταίος μήνας]]></el>
+  </CASELASTMONTH>
+  <CASELASTDAY type="text" align="center">
+    <en><![CDATA[Last day]]></en>
+    <el><![CDATA[Τελευταία ημέρα]]></el>
+  </CASELASTDAY>
+</dynaForm>

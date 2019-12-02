@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm sqlConnection="" rowsPerPage="20" name="cases_AllInputdocsList">
+  <DOC_UID type="hidden" showInTable="0"/>
+  <POSITION type="hidden" showInTable="0"/>
+  <APP_DOC_UID type="hidden" showInTable="0"/>
+  <CONFIRM type="hidden" showInTable="0"/>
+  <DOWNLOAD_LABEL type="hidden" showInTable="0"/>
+  <TITLE type="text" colWidth="10" titleAlign="left" align="left">
+    <en><![CDATA[Filename]]></en>
+    <el><![CDATA[Όνομα Αρχείου]]></el>
+  </TITLE>
+  <APP_DOC_COMMENT type="text" colWidth="200" titleAlign="left" align="left">
+    <en><![CDATA[Comments]]></en>
+    <el><![CDATA[Σχόλια]]></el>
+  </APP_DOC_COMMENT>
+  <TYPE type="dropdown" colWidth="75" titleAlign="left" align="left">
+    <en><![CDATA[Type]]><option name="INPUT"><![CDATA[Input Document]]></option><option name="ATTACHED"><![CDATA[Attached in form]]></option></en>
+    <el><![CDATA[Attached in form]]><option name="INPUT"><![CDATA[Input Document]]></option><option name="ATTACHED"><![CDATA[Attached in form]]></option></el>
+  </TYPE>
+  <DOC_VERSION type="text" colWidth="60" titleAlign="left" align="left">
+    <en><![CDATA[Version]]></en>
+    <el><![CDATA[Έκδοση]]></el>
+  </DOC_VERSION>
+  <ORIGIN type="text" colWidth="200" titleAlign="left" align="left">
+    <en><![CDATA[Origin Task]]></en>
+    <el><![CDATA[Αρχική Εργασία]]></el>
+  </ORIGIN>
+  <CREATED_BY type="text" colWidth="150" titleAlign="left" align="left">
+    <en><![CDATA[Created By]]></en>
+    <el><![CDATA[Εκδότης]]></el>
+  </CREATED_BY>
+  <CREATE_DATE type="text" colWidth="100" titleAlign="left" align="left">
+    <en><![CDATA[Create Date]]></en>
+    <el><![CDATA[Ημερ. Δημιουργίας]]></el>
+  </CREATE_DATE>
+  <DELETE type="link" colWidth="" value="@#ID_DELETE" link="#" onclick="deleteUploadedDocument(@QAPP_DOC_UID);">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </DELETE>
+  <DOWNLOAD type="link" colWidth="25" value="@#DOWNLOAD_LABEL" link="@#DOWNLOAD_LINK"/>
+</dynaForm>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="pagetable" sqlConnection="" menu="setup/calendarList_Options">
+  <CALENDAR_NAME type="text" colWidth="120">
+    <en><![CDATA[Name]]></en>
+    <el><![CDATA[Όνομα]]></el>
+  </CALENDAR_NAME>
+  <CALENDAR_DESCRIPTION type="text" colWidth="220">
+    <en><![CDATA[Description]]></en>
+    <el><![CDATA[Περιγραφή]]></el>
+  </CALENDAR_DESCRIPTION>
+  <CALENDAR_STATUS type="text" colWidth="24">
+    <en><![CDATA[Status]]></en>
+    <el><![CDATA[Κατάσταση]]></el>
+  </CALENDAR_STATUS>
+  <LINK type="link" colWidth="20" titleAlign="left" value="@G::LoadTranslation(ID_EDIT)" align="left" link="calendarEdit?id=@!CALENDAR_UID">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </LINK>
+  <LINK1 type="link" colWidth="20" titleAlign="left" value="@G::LoadTranslation(ID_COPY)" align="left" link="calendarEdit?cp=1&amp;id=@!CALENDAR_UID">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </LINK1>
+  <LINK2 type="link" colWidth="20" titleAlign="left" value="@!DELETABLE" align="left" onclick="return confirm(&quot;@G::LoadTranslation(ID_PROCESSMAP_CALENDAR_CONFIRM_DELETE)&quot;)" link="calendarDelete?id=@!CALENDAR_UID">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </LINK2>
+</dynaForm>

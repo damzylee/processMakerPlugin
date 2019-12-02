@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="cases_Resume_Current_Task" type="xmlform" width="550px" labelWidth="150px">
+  <TAS_TITLE type="text" mode="view">
+    <en><![CDATA[Task]]></en>
+    <el><![CDATA[Εργασία]]></el>
+  </TAS_TITLE>
+  <CURRENT_USER type="text" mode="view">
+    <en><![CDATA[Current User]]></en>
+    <el><![CDATA[Τρέχων χρήστης]]></el>
+  </CURRENT_USER>
+  <DEL_DELEGATE_DATE type="text" mode="view">
+    <en><![CDATA[Task Delegate Date]]></en>
+    <el><![CDATA[Ημερ. Ανάθεσης Εργασίας]]></el>
+  </DEL_DELEGATE_DATE>
+  <DEL_INIT_DATE type="text" mode="view">
+    <en><![CDATA[Task Init Date]]></en>
+    <el><![CDATA[Ημερ. Έναρξης Εργασίας]]></el>
+  </DEL_INIT_DATE>
+  <DEL_TASK_DUE_DATE type="text" mode="view">
+    <en><![CDATA[Task Due Date]]></en>
+    <el><![CDATA[Ημερ. Προθεσμίας Εργασίας]]></el>
+  </DEL_TASK_DUE_DATE>
+  <DEL_FINISH_DATE type="text" mode="view">
+    <en><![CDATA[Finish Date]]></en>
+    <el><![CDATA[Ημερ. Ολοκλήρωσης]]></el>
+  </DEL_FINISH_DATE>
+</dynaForm>

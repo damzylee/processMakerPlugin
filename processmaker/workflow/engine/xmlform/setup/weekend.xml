@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="setup/weekend" width="450" xmlform_type="NORMAL">
+  <TITLE9592 type="title" group="9">
+    <en><![CDATA[Weekend days]]></en>
+    <el><![CDATA[ΣαββατοΚύριακο]]></el>
+  </TITLE9592>
+  <MONDAY type="checkbox" group="1">
+    <en><![CDATA[Monday]]></en>
+    <el><![CDATA[Δευτέρα]]></el>
+  </MONDAY>
+  <TUESDAY type="checkbox" group="1">
+    <en><![CDATA[Tuesday]]></en>
+    <el><![CDATA[Τρίτη]]></el>
+  </TUESDAY>
+  <WEDNESDAY type="checkbox" group="1">
+    <en><![CDATA[Wednesday]]></en>
+    <el><![CDATA[Τετάρτη]]></el>
+  </WEDNESDAY>
+  <THURSDAY type="checkbox" group="1">
+    <en><![CDATA[Thursday]]></en>
+    <el><![CDATA[Πέμπτη]]></el>
+  </THURSDAY>
+  <FRIDAY type="checkbox" group="1">
+    <en><![CDATA[Friday]]></en>
+    <el><![CDATA[Παρασκευή]]></el>
+  </FRIDAY>
+  <SATURDAY type="checkbox" group="1">
+    <en><![CDATA[Saturday]]></en>
+    <el><![CDATA[Σαββάτο]]></el>
+  </SATURDAY>
+  <SUNDAY type="checkbox" group="1">
+    <en><![CDATA[Sunday]]></en>
+    <el><![CDATA[Κυριακή]]></el>
+  </SUNDAY>
+  <BSUBMIT type="button" onclick="on_submit(this.form)" group="1">
+    <en><![CDATA[Accept]]></en>
+    <el><![CDATA[Αποδοχή]]></el>
+  </BSUBMIT>
+</dynaForm>

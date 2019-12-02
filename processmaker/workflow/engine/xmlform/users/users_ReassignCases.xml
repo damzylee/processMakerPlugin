@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="pagetable">
+  <PROCESS type="text" colWidth="250" titleAlign="left" align="left">
+    <en><![CDATA[Process]]></en>
+    <el><![CDATA[Διαδικασία]]></el>
+  </PROCESS>
+  <CANTITY type="text" colWidth="50" titleAlign="left" align="left">
+    <en><![CDATA[No. of cases]]></en>
+    <el><![CDATA[Αρ. περιπτώσεων]]></el>
+  </CANTITY>
+  <USERS type="text" colWidth="200" titleAlign="left" align="left" enableHtml="1">
+    <en><![CDATA[Reassign to]]></en>
+    <el><![CDATA[Επανάθεση σε]]></el>
+  </USERS>
+</dynaForm>

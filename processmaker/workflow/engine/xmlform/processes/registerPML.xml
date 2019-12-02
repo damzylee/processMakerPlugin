@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="registerPMLForm" width="100%" enableTemplate="1" labelWidth="50%">
+  <pro_uid type="hidden"/>
+  <TITLE type="title">
+    <en><![CDATA[Login into ProcessMaker Library]]></en>
+    <el><![CDATA[Σύνδεση στην βιβλιοθήκη Processmaker]]></el>
+  </TITLE>
+  <PML_USER type="text" size="25" maxlength="50" validate="Any" required="1">
+    <en><![CDATA[Username (or Live Workspace)]]></en>
+    <el><![CDATA[ΌνομαΧρήστη(ή Live Workspace)]]></el>
+  </PML_USER>
+  <PML_PASSWORD type="password" size="25" maxlength="32" required="1">
+    <en><![CDATA[Password]]></en>
+    <el><![CDATA[Κωδικός]]></el>
+  </PML_PASSWORD>
+  <PML_LOGIN type="button" onclick="loginPML('@#pro_uid');">
+    <en><![CDATA[Login]]></en>
+    <el><![CDATA[Σύνδεση]]></el>
+  </PML_LOGIN>
+  <link_create_account type="private"/>
+  <link2 type="link" value="Create a New Account" link="@#link_create_account" target="_blank">
+    <en><![CDATA[]]></en>
+    <el><![CDATA[]]></el>
+  </link2>
+</dynaForm>

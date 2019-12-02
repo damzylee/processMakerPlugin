@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="pagetable" sqlConnection="" menu="reports/report1_back">
+  <FECHA type="text" align="left" colWidth="100">
+    <en><![CDATA[Date]]></en>
+    <el><![CDATA[Ημερομηνία]]></el>
+  </FECHA>
+  <CANTCASES type="text" align="right" colWidth="80">
+    <en><![CDATA[Total Cases]]></en>
+    <el><![CDATA[Σύνολο Υποθέσεων]]></el>
+  </CANTCASES>
+  <MIN type="hours" align="right" colWidth="180">
+    <en><![CDATA[Best Completion Time]]></en>
+    <el><![CDATA[Χρόνος Νωρίτερης Ολοκλήρωσης]]></el>
+  </MIN>
+  <MAX type="hours" align="right" colWidth="180">
+    <en><![CDATA[Slowest Completion Time]]></en>
+    <el><![CDATA[Χρόνος Αργότερης Ολοκλήρωσης]]></el>
+  </MAX>
+  <TOTALDUR type="hours" align="right" colWidth="150">
+    <en><![CDATA[Total Duration (Hours)]]></en>
+    <el><![CDATA[Συνολική Διάρκεια (Ώρες)]]></el>
+  </TOTALDUR>
+  <PROMEDIO type="hours" align="right" colWidth="100">
+    <en><![CDATA[Average (Hours)]]></en>
+    <el><![CDATA[Μέσος όρος (Ώρες)]]></el>
+  </PROMEDIO>
+</dynaForm>

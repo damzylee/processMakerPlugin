@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm name="noViewPage" basedir="" width="400">Login to system
+
+<title type="title"><en><![CDATA[You don't have permission]]></en><el><![CDATA[You don't have permission]]></el></title>
+
+<subtitle1 type="subtitle"><en><![CDATA[The user account which you are currently logged in does not have security privileges to view this page]]></en><el><![CDATA[Ο λογαριασμός χρήστη στον οποίο είστε συνδεδεμένοι αυτήν τη στιγμή δεν διαθέτει δικαιώματα ασφαλείας για την προβολή αυτής της σελίδας]]></el></subtitle1>
+
+<subtitle2 type="subtitle"><en><![CDATA[Please press the 'back' button to continue working with this system.]]></en><el><![CDATA[Παρακαλώ πατήστε το  'κουμπί Επιστροφή' για να συνεχίσετε να δουλεύεται με το σύστημα .]]></el></subtitle2>
+
+</dynaForm>

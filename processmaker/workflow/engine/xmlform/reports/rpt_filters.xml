@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynaForm type="xmlform" name="" width="600" enabletemplate="0" mode="edit">
+  <FROM type="date" defaultvalue="" startdate="2008-01-01" enddate="" size="15" mode="edit">
+    <en><![CDATA[Initial date]]></en>
+    <el><![CDATA[Αρχική ημερομηνία]]></el>
+  </FROM>
+  <TO type="date" defaultvalue="" startdate="2008-01-01" enddate="" size="15" mode="edit">
+    <en><![CDATA[End date]]></en>
+    <el><![CDATA[Ημερ. Τέλους]]></el>
+  </TO>
+  <FILTER type="submit">
+    <en><![CDATA[Filter]]></en>
+    <el><![CDATA[Φίλτρο]]></el>
+  </FILTER>
+</dynaForm>
